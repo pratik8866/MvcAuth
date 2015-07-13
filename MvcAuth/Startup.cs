@@ -43,9 +43,9 @@ namespace MvcAuth
         //   consumerKey: "",
         //   consumerSecret: "");
 
-        //app.UseFacebookAuthentication(
-        //   appId: "",
-        //   appSecret: "");
+        app.UseFacebookAuthentication(
+           appId: "",
+           appSecret: "");
 
          app.UseGoogleAuthentication(
          clientId: "000-000.apps.googleusercontent.com",
